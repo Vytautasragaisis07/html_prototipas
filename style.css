@@ -1,0 +1,61 @@
+
+*{
+	text-align:center;
+}
+	body{
+	background-color:tomato;
+}
+section{
+	background-color:white;
+}
+article{
+	background-color:red;
+}
+#super{
+	background-color:aquamarine;
+}
+.lead{
+	font-size:2em;
+}
+.strong{
+	font-weight:bold;
+}
+.hide{
+	display:none;
+}
+a[href="http://www.kitm.lt"]{
+	color:red;
+}
+a[href="http://www.smm.lt"]{
+	color:green;
+}
+a[href="http://www.delfi.lt"]{
+	color:blue;
+}
+a[href$=".pdf"]{
+	color:red;
+}
+
+a[href$=".docx"]{
+	color:green;
+}
+a[href$=".xlsx"]{
+	color:grey;
+}
+/*Links*/
+a:link{ /*Psiaudo klasė*/
+	color:red;
+	text-decoration:none;
+}
+a:visited{
+	color:green;
+}
+a:hover{
+	color:aqua;
+}
+li:first-child{
+	background-color:aqua;
+}
+li:last-child{
+	background-color:tomato;
+}
